@@ -22,7 +22,7 @@ const EditModal = () => {
     const [bio, setBio] =useState('');
 
     useEffect(() => {
-        setProfileImage(currentUser?.profuleImage);
+        setProfileImage(currentUser?.profileImage);
         setCoverImage(currentUser?.coverImage);
         setName(currentUser?.name)
         setUsername(currentUser?.username);
