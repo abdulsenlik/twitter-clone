@@ -3,7 +3,7 @@ import useUser from '@/hooks/useUser';
 import axios from 'axios';
 import React, { useCallback, useEffect, useState } from 'react'
 import toast from 'react-hot-toast';
-import { mutate } from 'swr';
+
 import Modal from '../Modal';
 import Input from '../Input';
 import useEditModal from '@/hooks/useEditModal';
